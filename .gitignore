@@ -1,0 +1,59 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package distribution directory
+target/
+build/
+
+# Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+*.swp
+*.swo
+
+# NetBeans project files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# JRebel
+.jrebel/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+*.sublime-workspace
+*.sublime-project
+
+# Environment variables
+.env
+
+# IDE-specific folders
+.vscode/
+
