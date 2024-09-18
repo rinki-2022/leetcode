@@ -23,7 +23,7 @@ public class DistributeCandies {
         }
         int totalCandies = 0;
         for (int candy: candies){
-            totalCandies+=candy;
+            totalCandies += candy;
         }
         return totalCandies;
     }
