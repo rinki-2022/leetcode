@@ -11,10 +11,10 @@ public class FindMinimumSortedArray {
             while (left < right) {
                 int mid = left + (right - left) / 2;
 
-                if (nums[mid] > nums[right]) { //ele has to be in right half
+                if (nums[mid] > nums[right]) { //element has to be in right half
                         left = mid +1;
                 } else {
-                        right = mid;//ele has to be in left half
+                        right = mid;//elelment has to be in left half
                 }
             }
             return nums[left];
