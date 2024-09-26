@@ -12,20 +12,14 @@ public class MyCalendar {
 
     public boolean book(int start, int end) {
 
-        if (bookings.size() == 0){
-            bookings.add(new int[]{start, end});
-            return true;
-        } else {
-            for (int [] singleBooking : bookings){
+       for (int [] singleBooking : bookings){
                 if (start < singleBooking[1] && end > singleBooking[0]){
                     return false;
-                } else {
-                    return true;
                 }
             }
-        }
 
-        return false;
+        bookings.add(new int[] { start, end });
+        return true;
     }
     public static void main(String[] args) {
         MyCalendar myCalendar = new MyCalendar();
